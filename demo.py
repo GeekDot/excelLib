@@ -14,7 +14,8 @@ data = {
         'sheet-3': [[3.1, 3.2, 3.3, 3.4, 3.5], [3.1, 3.2, 3.3, 3.4, 3.5]],
     }
 ex.write(data, file_name)
+print('写入数据:', data)
 
 # 读取 Excel
 data = ex.read(file_name)
-print(data)
+print('读取数据:', data)
